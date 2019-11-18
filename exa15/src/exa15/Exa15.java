@@ -91,7 +91,7 @@ public class Exa15 {
             writer.writeStartElement("Plato");
             writer.writeAttribute("codigo", obj.getCodigop());
             writer.writeEndElement();
-            writer.writeStartElement("nombreP");
+            writer.writeStartElement("nombrePlato");
             writer.writeCharacters(obj.getNomep());
             writer.writeEndElement(); 
             writer.writeStartElement("grasaTotal");
